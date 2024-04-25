@@ -325,7 +325,7 @@ const main = () => {
 
 	const { showStickyHeader, disableEditIcons } = initStickyHeaderABTests(
 		ABTestConfig,
-		isStickyHeaderAllowed && !mw.user.isAnon(),
+		isStickyHeaderAllowed,
 		( config ) => initExperiment(
 			Object.assign( {}, config, { token: mw.user.getId() } )
 		)
