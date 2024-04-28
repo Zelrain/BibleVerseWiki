@@ -165,8 +165,8 @@
 	},
 	"DefaultUserOptions": {
 		"vector-limited-width": 1,
-		"vector-page-tools-pinned": 1,
-		"vector-main-menu-pinned": 1,
+		"vector-page-tools-pinned": 0,
+		"vector-main-menu-pinned": 0,
 		"vector-toc-pinned": 1
 	},
 	"HookHandlers": {
@@ -547,7 +547,7 @@
 			"value": true
 		},
 		"VectorDefaultSidebarVisibleForAnonymousUser": {
-			"value": false
+			"value": true
 		},
 		"VectorLanguageInHeader": {
 			"value": {
@@ -614,7 +614,7 @@
 		"VectorPageTools": {
 			"value": {
 				"logged_in": true,
-				"logged_out": false
+				"logged_out": true
 			},
 			"description": "@var array Moves the tools links from the main menu into a new menu in the page toolbar"
 		}
